@@ -4,3 +4,5 @@ if edad >= 18:
 else:
     print("Eres menor de edad")
     
+    for i in range(5):
+        print("Hola")
