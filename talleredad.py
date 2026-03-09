@@ -4,10 +4,10 @@ while True:
     i = 0
     while i < 5:
         while True:
-            name = input("Nombre: ")
+            name = input("nombre: ")
             try:
-                age = int(input("Edad: "))
-                grade = float(input("Calificación: "))
+                age = int(input("edad: "))
+                grade = float(input("calificación: "))
                 if 5 <= age <= 100 and 0 <= grade <= 5:
                     students.append({"name": name, "age": age, "grade": grade})
                     break
